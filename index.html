@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>노래방 창고 - 개인정보 처리방침</title>
+    <title>SingVault (노래방 창고) - 개인정보 처리방침 / Privacy Policy</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -52,76 +52,210 @@
         .contact a {
             color: white;
         }
+        .lang-toggle {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .lang-toggle button {
+            padding: 10px 24px;
+            font-size: 1em;
+            font-weight: bold;
+            border: 2px solid #FF6B35;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: all 0.3s;
+        }
+        .lang-toggle button.active {
+            background-color: #FF6B35;
+            color: white;
+        }
+        .lang-toggle button:not(.active) {
+            background-color: white;
+            color: #FF6B35;
+        }
+        .lang-toggle button:hover {
+            opacity: 0.85;
+        }
     </style>
 </head>
 <body>
     <div class="app-info">
-        <h1>🎤 노래방 창고 (Karaoke Warehouse)</h1>
-        <p class="update-date">최종 업데이트: 2026년 1월 13일</p>
+        <h1>🎤 SingVault (노래방 창고)</h1>
+        <p class="update-date">최종 업데이트 / Last Updated: 2026년 2월 22일 (February 22, 2026)</p>
     </div>
 
-    <h2>1. 개인정보 처리방침 개요</h2>
-    <p>
-        <strong>노래방 창고</strong>(이하 "앱")는 사용자의 개인정보를 중요시하며, 
-        개인정보보호법 등 관련 법령을 준수합니다. 
-        본 개인정보 처리방침은 앱이 수집하는 정보와 그 사용 목적을 설명합니다.
-    </p>
+    <div class="lang-toggle">
+        <button id="btn-ko" class="active" onclick="switchLang('ko')">🇰🇷 한국어</button>
+        <button id="btn-en" onclick="switchLang('en')">🇺🇸 English</button>
+    </div>
 
-    <h2>2. 수집하는 개인정보</h2>
-    <p><strong>본 앱은 개인정보를 수집하지 않습니다.</strong></p>
-    <ul>
-        <li>회원가입 없이 이용 가능합니다.</li>
-        <li>이름, 이메일, 전화번호 등 개인 식별 정보를 요구하지 않습니다.</li>
-        <li>위치 정보를 수집하지 않습니다.</li>
-        <li>카메라, 마이크 등 민감한 권한을 사용하지 않습니다. (음성 검색은 기기 내 처리)</li>
-    </ul>
+    <!-- ==================== 한국어 ==================== -->
+    <div id="content-ko">
+        <h2>1. 개인정보 처리방침 개요</h2>
+        <p>
+            <strong>SingVault (노래방 창고)</strong>(이하 "앱")는 사용자의 개인정보를 중요시하며,
+            개인정보보호법 등 관련 법령을 준수합니다.
+            본 개인정보 처리방침은 앱이 수집하는 정보와 그 사용 목적을 설명합니다.
+        </p>
 
-    <h2>3. 기기에 저장되는 정보</h2>
-    <p>앱 사용 편의를 위해 다음 정보가 <strong>사용자 기기에만</strong> 저장됩니다:</p>
-    <ul>
-        <li><strong>최근 재생 목록</strong>: 최근 재생한 곡 20개</li>
-        <li><strong>즐겨찾기</strong>: 사용자가 저장한 즐겨찾기 곡</li>
-    </ul>
-    <p>
-        이 정보는 외부 서버로 전송되지 않으며, 앱 삭제 시 함께 삭제됩니다.
-        사용자는 설정 화면에서 언제든지 이 데이터를 백업하거나 삭제할 수 있습니다.
-    </p>
-
-    <h2>4. 외부 서비스 연동</h2>
-    <p>본 앱은 다음 외부 서비스와 연동됩니다:</p>
-    <ul>
-        <li><strong>YouTube</strong>: 노래방 영상 재생을 위해 YouTube 앱 또는 웹사이트로 연결됩니다. 
-            YouTube 이용 시 Google의 개인정보처리방침이 적용됩니다.</li>
-    </ul>
-
-    <h2>5. 광고 및 분석</h2>
-    <p>본 앱은 광고를 포함하지 않으며, 사용자 행동 분석 도구를 사용하지 않습니다.</p>
-
-    <h2>6. 아동 개인정보 보호</h2>
-    <p>
-        본 앱은 만 14세 미만 아동의 개인정보를 수집하지 않습니다. 
-        앱은 전 연령 이용 가능하며, 개인정보 수집 없이 이용할 수 있습니다.
-    </p>
-
-    <h2>7. 개인정보 처리방침 변경</h2>
-    <p>
-        본 개인정보 처리방침은 법령 또는 서비스 변경에 따라 수정될 수 있습니다. 
-        변경 시 본 페이지에 업데이트되며, 중요한 변경 사항은 앱 내 공지합니다.
-    </p>
-
-    <h2>8. 문의처</h2>
-    <div class="contact">
-        <p>개인정보 관련 문의사항이 있으시면 아래로 연락해 주세요.</p>
+        <h2>2. 수집하는 개인정보</h2>
+        <p><strong>본 앱은 이름, 이메일, 전화번호 등 개인 식별 정보를 직접 수집하지 않습니다.</strong></p>
         <ul>
-            <li><strong>개발자</strong>: Shiner</li>
-            <li><strong>이메일</strong>: jjang.ys@gmail.com</li>
-            <li><strong>GitHub</strong>: <a href="https://github.com/shiner1/karaoke">https://github.com/shiner1/karaoke</a></li>
+            <li>회원가입 없이 이용 가능합니다.</li>
+            <li>이름, 이메일, 전화번호 등 개인 식별 정보를 요구하지 않습니다.</li>
+            <li>위치 정보를 수집하지 않습니다.</li>
+            <li>카메라, 마이크 등 민감한 권한을 사용하지 않습니다. (음성 검색은 기기 내 처리)</li>
         </ul>
+        <p>단, 앱에 포함된 제3자 서비스(아래 5항 참조)를 통해 <strong>기기 식별자 및 앱 사용 정보</strong>가 자동으로 수집될 수 있습니다.</p>
+
+        <h2>3. 기기에 저장되는 정보</h2>
+        <p>앱 사용 편의를 위해 다음 정보가 <strong>사용자 기기에만</strong> 저장됩니다:</p>
+        <ul>
+            <li><strong>최근 재생 목록</strong>: 최근 재생한 곡 20개</li>
+            <li><strong>즐겨찾기</strong>: 사용자가 저장한 즐겨찾기 곡</li>
+        </ul>
+        <p>
+            이 정보는 외부 서버로 전송되지 않으며, 앱 삭제 시 함께 삭제됩니다.
+            사용자는 설정 화면에서 언제든지 이 데이터를 백업하거나 삭제할 수 있습니다.
+        </p>
+
+        <h2>4. 외부 서비스 연동</h2>
+        <p>본 앱은 다음 외부 서비스와 연동됩니다:</p>
+        <ul>
+            <li><strong>YouTube</strong>: 노래방 영상 재생을 위해 YouTube 앱 또는 웹사이트로 연결됩니다.
+                YouTube 이용 시 <a href="https://policies.google.com/privacy">Google의 개인정보처리방침</a>이 적용됩니다.</li>
+        </ul>
+
+        <h2>5. 광고 및 분석</h2>
+        <p>본 앱은 다음과 같은 제3자 서비스를 사용합니다:</p>
+        <ul>
+            <li><strong>Google AdMob (광고)</strong>: 앱 내 배너 광고를 게재하기 위해 Google AdMob을 사용합니다.
+                AdMob은 광고 게재 및 개인 맞춤 광고를 위해 <strong>Google 광고 ID(Advertising ID)</strong> 및 기기 정보를 수집할 수 있습니다.
+                자세한 내용은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요.</li>
+            <li><strong>Google Firebase Analytics (분석)</strong>: 앱 사용 현황 파악 및 서비스 개선을 위해 Firebase Analytics를 사용합니다.
+                Firebase는 <strong>Firebase 설치 ID(Installation ID)</strong>, 앱 상호작용 데이터, 기기 모델, OS 버전 등을 자동으로 수집합니다.
+                수집된 데이터는 익명화되어 통계 목적으로만 사용되며, 개인을 식별하는 데 사용되지 않습니다.
+                자세한 내용은 <a href="https://firebase.google.com/support/privacy">Firebase 개인정보처리방침</a>을 참고하세요.</li>
+        </ul>
+        <h3>수집되는 기기 식별자</h3>
+        <ul>
+            <li><strong>Google 광고 ID (GAID)</strong>: 광고 표시 및 광고 성과 측정을 위해 수집됩니다. 사용자는 기기 설정에서 광고 ID를 재설정하거나 맞춤 광고를 비활성화할 수 있습니다.</li>
+            <li><strong>Firebase 설치 ID (FID)</strong>: 앱 분석을 위해 자동 생성되는 고유 식별자입니다. 앱을 삭제하면 함께 삭제됩니다.</li>
+        </ul>
+
+        <h2>6. 아동 개인정보 보호</h2>
+        <p>
+            본 앱은 만 14세 미만 아동의 개인정보를 수집하지 않습니다.
+            앱은 전 연령 이용 가능하며, 개인정보 수집 없이 이용할 수 있습니다.
+        </p>
+
+        <h2>7. 개인정보 처리방침 변경</h2>
+        <p>
+            본 개인정보 처리방침은 법령 또는 서비스 변경에 따라 수정될 수 있습니다.
+            변경 시 본 페이지에 업데이트되며, 중요한 변경 사항은 앱 내 공지합니다.
+        </p>
+
+        <h2>8. 문의처</h2>
+        <div class="contact">
+            <p>개인정보 관련 문의사항이 있으시면 아래로 연락해 주세요.</p>
+            <ul>
+                <li><strong>개발자</strong>: Shiner</li>
+                <li><strong>이메일</strong>: shiner1@github.com</li>
+                <li><strong>GitHub</strong>: <a href="https://github.com/shiner1/karaoke">https://github.com/shiner1/karaoke</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ==================== English ==================== -->
+    <div id="content-en" style="display: none;">
+        <h2>1. Overview</h2>
+        <p>
+            <strong>SingVault</strong> (also known as "노래방 창고", hereinafter the "App") values the privacy of its users
+            and complies with applicable privacy laws and regulations.
+            This Privacy Policy describes what information the App collects and how it is used.
+        </p>
+
+        <h2>2. Personal Information Collected</h2>
+        <p><strong>This App does not directly collect personally identifiable information such as name, email, or phone number.</strong></p>
+        <ul>
+            <li>No account registration is required.</li>
+            <li>No personally identifiable information (name, email, phone number, etc.) is requested.</li>
+            <li>No location data is collected.</li>
+            <li>No sensitive permissions such as camera or microphone are used. (Voice search is processed on-device.)</li>
+        </ul>
+        <p>However, third-party services integrated in the App (see Section 5 below) may automatically collect <strong>device identifiers and app usage data</strong>.</p>
+
+        <h2>3. Data Stored on Device</h2>
+        <p>The following data is stored <strong>locally on the user's device only</strong> for convenience:</p>
+        <ul>
+            <li><strong>Recent play history</strong>: Up to 20 recently played songs</li>
+            <li><strong>Favorites</strong>: Songs saved by the user</li>
+        </ul>
+        <p>
+            This data is not transmitted to external servers and is deleted when the App is uninstalled.
+            Users can back up or delete this data at any time from the Settings screen.
+        </p>
+
+        <h2>4. Third-Party Service Integration</h2>
+        <p>This App integrates with the following external service:</p>
+        <ul>
+            <li><strong>YouTube</strong>: The App links to the YouTube app or website to play karaoke videos.
+                <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> applies when using YouTube.</li>
+        </ul>
+
+        <h2>5. Advertising and Analytics</h2>
+        <p>This App uses the following third-party services:</p>
+        <ul>
+            <li><strong>Google AdMob (Advertising)</strong>: Google AdMob is used to display banner ads within the App.
+                AdMob may collect the <strong>Google Advertising ID (GAID)</strong> and device information for ad serving and personalization.
+                For more details, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+            <li><strong>Google Firebase Analytics (Analytics)</strong>: Firebase Analytics is used to understand app usage and improve the service.
+                Firebase automatically collects <strong>Firebase Installation ID (FID)</strong>, app interaction data, device model, OS version, and similar information.
+                Collected data is anonymized and used solely for statistical purposes; it is not used to identify individuals.
+                For more details, see the <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
+        </ul>
+        <h3>Device Identifiers Collected</h3>
+        <ul>
+            <li><strong>Google Advertising ID (GAID)</strong>: Collected for ad display and ad performance measurement. Users can reset their Advertising ID or opt out of personalized ads in their device settings.</li>
+            <li><strong>Firebase Installation ID (FID)</strong>: A unique identifier automatically generated for app analytics. It is deleted when the App is uninstalled.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>
+            This App does not knowingly collect personal information from children under the age of 14.
+            The App is available for all ages and can be used without any personal data collection.
+        </p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+            This Privacy Policy may be updated due to changes in laws or services.
+            Updates will be posted on this page, and significant changes will be announced within the App.
+        </p>
+
+        <h2>8. Contact</h2>
+        <div class="contact">
+            <p>If you have any questions about privacy, please contact us:</p>
+            <ul>
+                <li><strong>Developer</strong>: Shiner</li>
+                <li><strong>Email</strong>: shiner1@github.com</li>
+                <li><strong>GitHub</strong>: <a href="https://github.com/shiner1/karaoke">https://github.com/shiner1/karaoke</a></li>
+            </ul>
+        </div>
     </div>
 
     <hr style="margin-top: 40px;">
     <p style="text-align: center; color: #666; font-size: 0.9em;">
-        © 2026 노래방 창고 (Karaoke Warehouse). All rights reserved.
+        © 2026 SingVault (노래방 창고). All rights reserved.
     </p>
+
+    <script>
+        function switchLang(lang) {
+            document.getElementById('content-ko').style.display = lang === 'ko' ? 'block' : 'none';
+            document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+            document.getElementById('btn-ko').className = lang === 'ko' ? 'active' : '';
+            document.getElementById('btn-en').className = lang === 'en' ? 'active' : '';
+        }
+    </script>
 </body>
 </html>
